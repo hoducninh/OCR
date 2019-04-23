@@ -6,7 +6,9 @@ Build an OCR system which is able to correctly convert an image to text. Testing
 
 ## Methodology
 
-Due to the limited time resources and knowledge in building OCR problems, we will be using an open source tool called Tesseract and OpenCV. Tesseract was developed as a proprietary software by Hewlett Packard Labs. In 2005, it was open sourced by HP in collaboration with the University of Nevada, Las Vegas. Since 2006 it has been actively developed by Google and many open source contributors. In the newest version, Tesseract has implemented a Long Short Term Memory (LSTM) based recognition engine.
+Due to the limited time resources and knowledge in building OCR problems, we will be using an open source tool called Tesseract and OpenCV. Tesseract was developed as a proprietary software by Hewlett Packard Labs. In 2005, it was open sourced by HP in collaboration with the University of Nevada, Las Vegas. 
+
+Since 2006 it has been actively developed by Google and many open source contributors. In the newest version, Tesseract has implemented a Long Short Term Memory (LSTM) based recognition engine.
 
 A good articles about how to get started with Tesseract [here](https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/).
 
