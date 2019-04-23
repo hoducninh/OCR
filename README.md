@@ -14,11 +14,11 @@ A good articles about how to get started with Tesseract [here](https://www.pyima
 
 After installing all libraries and depedencies for running Tesseract, we use command line going to project directory and type:
 
-(`tesseract images/20000-leagues-006.jpg output/2000-leagues-006 -l eng --oem 1 --psm 3`)
+`tesseract images/20000-leagues-006.jpg output/2000-leagues-006 -l eng --oem 1 --psm 3`
 
 ![](demo/cli.png)
 
-Note that: the input image and output file are stored at [`images/`](https://github.com/hoducninh/OCR/tree/master/images) and [`output`](https://github.com/hoducninh/OCR/tree/master/output) folder respectively. 
+Note that: the input image and output file are stored at [`images/`](https://github.com/hoducninh/OCR/tree/master/images) and [`output/`](https://github.com/hoducninh/OCR/tree/master/output) folder respectively. 
 
 From the image input [20000-leagues-006.jpg](https://github.com/hoducninh/OCR/blob/master/images/20000-leagues-006.jpg). we see that Tesseract does an exellent job with very few mistakes, the output file can be found [here](https://github.com/hoducninh/OCR/blob/master/output/2000-leagues-006.txt).
 
@@ -28,7 +28,7 @@ Despite Tesseract does a really good jobs on the reference image, we might have 
 
 1. Dive deep into how Tesseract really works. Some techiniques may be needed to improve the performance of the mode (i.e. image pre-processing).
 
-2. Build an API which allows end-users upload an image and return (`*.txt`) file.
+2. Build an API which allows end-users upload an image and return `*.txt` file.
 
 ##### Thank you for reading. 
 
