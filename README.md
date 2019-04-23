@@ -20,7 +20,7 @@ After installing all libraries and depedencies for running Tesseract, we use com
 
 Note that: the input image and output file are stored at (`images/`) and (`output/`) folder respectively. 
 
-From the image input [20000-leagues-006.jpg][https://github.com/hoducninh/OCR/blob/master/images/20000-leagues-006.jpg]. we see that Tesseract does an exellent job with very few mistakes, the output file can be found [here](https://github.com/hoducninh/OCR/blob/master/output/2000-leagues-006.txt).
+From the image input [20000-leagues-006.jpg](https://github.com/hoducninh/OCR/blob/master/images/20000-leagues-006.jpg). we see that Tesseract does an exellent job with very few mistakes, the output file can be found [here](https://github.com/hoducninh/OCR/blob/master/output/2000-leagues-006.txt).
 
 ## Next steps
 
