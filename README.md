@@ -16,6 +16,8 @@ After installing all libraries and depedencies for running Tesseract, we use com
 
 (`tesseract images/20000-leagues-006.jpg output/2000-leagues-006 -l eng --oem 1 --psm 3`)
 
+![](demo/cli.png)
+
 Note that: the input image and output file are stored at (`images/`) and (`output/`) folder respectively. Examining the results in output file, we see that Tesseract does an exellent job with very few mistakes.
 
 ## Next steps
